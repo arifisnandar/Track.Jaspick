@@ -1,0 +1,74 @@
+body {
+  margin-bottom: 0px;
+  padding: 0px;
+  background-image: url(https://images.bisnis-cdn.com/posts/2017/03/16/637690/nilai-ekspor--150317-riv-2.jpg);
+  background-size: cover;
+  background-position: center;font-family: sans-serif;
+  height: 100vh;
+}
+
+.contact-box {
+  width: 320px;
+  height: 420px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 70px;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  margin-top: 0px;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.contact-box p {
+  margin-bottom: 0px;
+  padding: 0px;
+  font-weight: bold;
+}
+
+.contact-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contact-box input[type="text"], input[type="text"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.contact-box input[type="submit"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 20px;
+  background: #1c8adb;
+}
+
+.contact-box input[type="submit"]:hover{
+  cursor: pointer;
+  background: #E35D56;
+  color: #fff;
+}
+
+.contact-box a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+}
+
+.contact-box a:hover{
+  color: #E35D56;
+}

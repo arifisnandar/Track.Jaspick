@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande"
+}
+
+a {
+  tect-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://img.alinea.id/crop/600x400/content/2020/07/13/80533/aktivitas-sektor-logistik-di-saat-pandemi-KcjCvlIKVd.jpg);
+  background-size: cover;
+  color: #ff6600;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 1;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #00cc00;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: #f2f2f2;
+  display: inline-block;
+  opacity: 0.7;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.signup {
+  background-color:  #ff1a1a;
+}
+
+.facebook {
+  background-color:  #ff1a1a;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color:  #ff1a1a;
+}
+
+header {
+  height: 70px;
+  width: 1366px;
+  background-color:  #99bbff;
+}
+
+.header-left {
+  float: left;
+  font-size: 35px;
+  margin-top: 18px;
+}
+
+.header-right {
+  float: right;
+  background-color: #999999;
+  transition: all 0.5s; <!-- Animasi yang berubag saat fungsi hover-->
+}
+
+.header-right:hover {
+  background-color: #99bbff;
+}
+
+.header-right a {
+  line-height: 60px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color:  #e6e6e6;
+  display: block;
+}
+
+footer{
+    font-family: Tahoma;
+    background-color: #99bbff;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+footer P{
+    font-family: Tahoma;
+    font-size: 20px;
+}
